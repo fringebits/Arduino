@@ -6,32 +6,32 @@
 
 
 //Definition for each letter and number in the matrix.
-#define A     {B00000000,B00111100,B01000010,B01000010,B01000010,B01111110,B01000010,B01000010,B01000010,B00000000}
-#define B     {B00000000,B01111100,B01000010,B01000010,B01111100,B01000010,B01000010,B01000010,B01111100,B00000000}
-#define C     {B00000000,B00111110,B01000000,B01000000,B01000000,B01000000,B01000000,B01000000,B00111110,B00000000}
-#define D     {B00000000,B01111100,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B01111100,B00000000}
-#define E     {B00000000,B01111110,B01000000,B01000000,B01111100,B01000000,B01000000,B01000000,B01111110,B00000000}
-#define F     {B00000000,B01111110,B01000000,B01000000,B01111100,B01000000,B01000000,B01000000,B01000000,B00000000}
-#define G     {B00000000,B00111100,B01000010,B01000010,B01000000,B01000111,B01000010,B01000010,B00111100,B00000000}
-#define H     {B00000000,B01000010,B01000010,B01000010,B01111110,B01000010,B01000010,B01000010,B01000010,B00000000}
-#define I     {B00000000,B00111000,B00010000,B00010000,B00010000,B00010000,B00010000,B00010000,B00111000,B00000000}
-#define J     {B00000000,B00011100,B00001000,B00001000,B00001000,B00001000,B01001000,B01001000,B00110000,B00000000}
-#define K     {B00000000,B01000100,B01001000,B01010000,B01100000,B01010000,B01001000,B01000100,B01000010,B00000000}
-#define L     {B00000000,B01000000,B01000000,B01000000,B01000000,B01000000,B01000000,B01000000,B01111110,B00000000}
-#define M     {B00000000,B01000100,B10101010,B10010010,B10010010,B10000010,B10000010,B10000010,B10000010,B00000000}
-#define N     {B00000000,B01000010,B01100010,B01010010,B01001010,B01001010,B01001010,B01000110,B01000010,B00000000}
-#define O     {B00000000,B00111100,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B00111100,B00000000}
-#define P     {B00000000,B00111100,B01000010,B01000010,B01000010,B01111100,B01000000,B01000000,B01000000,B00000000}
-#define Q     {B00000000,B00111100,B01000010,B01000010,B01000010,B01000010,B01000010,B01000110,B00111110,B00000001}
-#define R     {B00000000,B00111100,B01000010,B01000010,B01000010,B01111100,B01000100,B01000010,B01000010,B00000000}
-#define S     {B00000000,B00111100,B01000010,B01000000,B01000000,B00111100,B00000010,B01000010,B00111100,B00000000}
-#define T     {B00000000,B11111110,B00010000,B00010000,B00010000,B00010000,B00010000,B00010000,B00010000,B00000000}
-#define U     {B00000000,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B00111100,B00000000}
-#define V     {B00000000,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B00100100,B00011000,B00000000}
-#define W     {B00000000,B10000010,B10000010,B10000010,B10000010,B10010010,B10010010,B10101010,B01000100,B00000000}
-#define X     {B00000000,B01000010,B01000010,B00100100,B00011000,B00011000,B00100100,B01000010,B01000010,B00000000}
-#define Y     {B00000000,B10000010,B01000100,B00101000,B00010000,B00010000,B00010000,B00010000,B00010000,B00000000}
-#define Z     {B00000000,B01111110,B00000010,B00000100,B00001000,B00010000,B00100000,B01000000,B01111110,B00000000}
+#define up_A  {B00000000,B00111100,B01000010,B01000010,B01000010,B01111110,B01000010,B01000010,B01000010,B00000000}
+#define up_B  {B00000000,B01111100,B01000010,B01000010,B01111100,B01000010,B01000010,B01000010,B01111100,B00000000}
+#define up_C  {B00000000,B00111110,B01000000,B01000000,B01000000,B01000000,B01000000,B01000000,B00111110,B00000000}
+#define up_D  {B00000000,B01111100,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B01111100,B00000000}
+#define up_E  {B00000000,B01111110,B01000000,B01000000,B01111100,B01000000,B01000000,B01000000,B01111110,B00000000}
+#define up_F  {B00000000,B01111110,B01000000,B01000000,B01111100,B01000000,B01000000,B01000000,B01000000,B00000000}
+#define up_G  {B00000000,B00111100,B01000010,B01000010,B01000000,B01000111,B01000010,B01000010,B00111100,B00000000}
+#define up_H  {B00000000,B01000010,B01000010,B01000010,B01111110,B01000010,B01000010,B01000010,B01000010,B00000000}
+#define up_I  {B00000000,B00111000,B00010000,B00010000,B00010000,B00010000,B00010000,B00010000,B00111000,B00000000}
+#define up_J  {B00000000,B00011100,B00001000,B00001000,B00001000,B00001000,B01001000,B01001000,B00110000,B00000000}
+#define up_K  {B00000000,B01000100,B01001000,B01010000,B01100000,B01010000,B01001000,B01000100,B01000010,B00000000}
+#define up_L  {B00000000,B01000000,B01000000,B01000000,B01000000,B01000000,B01000000,B01000000,B01111110,B00000000}
+#define up_M  {B00000000,B01000100,B10101010,B10010010,B10010010,B10000010,B10000010,B10000010,B10000010,B00000000}
+#define up_N  {B00000000,B01000010,B01100010,B01010010,B01001010,B01001010,B01001010,B01000110,B01000010,B00000000}
+#define up_O  {B00000000,B00111100,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B00111100,B00000000}
+#define up_P  {B00000000,B00111100,B01000010,B01000010,B01000010,B01111100,B01000000,B01000000,B01000000,B00000000}
+#define up_Q  {B00000000,B00111100,B01000010,B01000010,B01000010,B01000010,B01000010,B01000110,B00111110,B00000001}
+#define up_R  {B00000000,B00111100,B01000010,B01000010,B01000010,B01111100,B01000100,B01000010,B01000010,B00000000}
+#define up_S  {B00000000,B00111100,B01000010,B01000000,B01000000,B00111100,B00000010,B01000010,B00111100,B00000000}
+#define up_T  {B00000000,B11111110,B00010000,B00010000,B00010000,B00010000,B00010000,B00010000,B00010000,B00000000}
+#define up_U  {B00000000,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B00111100,B00000000}
+#define up_V  {B00000000,B01000010,B01000010,B01000010,B01000010,B01000010,B01000010,B00100100,B00011000,B00000000}
+#define up_W  {B00000000,B10000010,B10000010,B10000010,B10000010,B10010010,B10010010,B10101010,B01000100,B00000000}
+#define up_X  {B00000000,B01000010,B01000010,B00100100,B00011000,B00011000,B00100100,B01000010,B01000010,B00000000}
+#define up_Y  {B00000000,B10000010,B01000100,B00101000,B00010000,B00010000,B00010000,B00010000,B00010000,B00000000}
+#define up_Z  {B00000000,B01111110,B00000010,B00000100,B00001000,B00010000,B00100000,B01000000,B01111110,B00000000}
 #define lit_a {B00000000,B00000000,B00000000,B00000000,B00111000,B01000100,B01000101,B01000101,B00111010,B00000000}
 #define lit_b {B00000000,B00000000,B00100000,B00100000,B00100000,B00111100,B00100010,B00100010,B00111100,B00000000}
 #define lit_c {B00000000,B00000000,B00000000,B00000000,B00111100,B01000000,B01000000,B01000000,B00111100,B00000000}
@@ -77,12 +77,13 @@
 const int ICclock = 8; //DecadeCounter pins
 const int ICreset = 9;
 const int Switch = 10;
-const int numChar = 13;
-byte patterns[numChar][10] = {space,D,A,N};
+
+byte patternDan[4][ROWS] = {space, up_D, up_A, up_N};
+byte patternHello[11][ROWS] = {up_H, lit_e, lit_l, lit_l, lit_o, space, up_W, lit_o, lit_r, lit_l, lit_d};
 byte cpPattern[ROWS] = CP;
 
 //Function Definitions
-void ScrollingText();
+void ScrollingText(int numChar, byte pattern[][10]);
 int ChooseMode();
 void CalPoly();
 void TurnOff();
@@ -101,85 +102,70 @@ void setup()
 
 void loop() 
 {
-	int mode;
-	mode = ChooseMode();
-	int numChar = 12;
-	if(mode < 10)
-  	{
-    	CalPoly();
-  	}
-  	else if(mode > 15)
-  	{
-		//numChar = 13;
-    	//patterns[numChar][10] = {space, W, E, L, C, O, M, E, space}
-    	ScrollingText();
-  	}
-  	else
-  	{
-    	TurnOff();
-  	}
+ 
+    DrawCalPoly(100); // 100 is a pseudo-time (its the number of times to loop over the CP pattern).
+
+    DrawScrollingText(4, patternDan, 8);
+
+    DrawScrollingText(11, patternHello, 8);
+
+    TurnOff();
 }
 
 int ChooseMode()
 {
-	//int value = analogRead(A0); //input from switch
-	return 20;
+    //int value = analogRead(A0); //input from switch
+    return 20;
 }
 
-void ScrollingText()
+void DrawScrollingText(int numChar, byte pattern[][10], int loopCount)
 {
-	for(int pattern = 0; pattern < numChar-1; pattern++) // loop over the patterns
-	{
-		for (int scroll = 0; scroll < 8; scroll++) //scrolls one bite at a time (column offset)
-		{
-			for(int row = 0; row < ROWS; row++)// loops over the array of bytes
-    		{
-     			byte text = patterns[pattern][row]; //draw current pattern
-     			byte nexttext = patterns[pattern+1][row]; //
+    for(int ch = 0; ch < numChar-1; ch++) // loop over the patterns
+    {
+        for (int scroll = 0; scroll < loopCount; scroll++) // scrolls one column at a time (column offset)
+        {
+            // Draw each of the rows (for the current 'scroll' value)
+            for(int row = 0; row < ROWS; row++)// loops over the array of bytes
+            {
+                byte text = pattern[ch][row];       // current character (in the pattern)
+                byte nexttext = pattern[ch+1][row]; // next character (in the pattern)
                   
-     			PORTD = (text << scroll) + (nexttext >> 7-scroll); //shift current pattern "scroll" units left and the next pattern "scroll" units right
-     			delayMicroseconds(800);// the time every row is on
+                PORTD = (text << scroll) + (nexttext >> 7-scroll); // shift current pattern "scroll" units left and the next pattern "scroll" units right
+                delayMicroseconds(800); // the time every row is on
                    
-     			PORTD = B00000000;//fixes the ghosting effect
-     			SetClock(); //changes decade counter row
-    		}
-
-    		int cont = ChooseMode; //check to see if mode is still on Scrolling Text
-    		if (cont > 15)
-    		{ 
-    			delay(75);  //wait before scrolling again
-			}
-    		else
-    		{
-    			return; //if mode isn't right return to loop
-			}
-   		}
-  	}
+                PORTD = B00000000; // fixes the ghosting effect
+                SetClock(); // changes decade counter row
+            }
+        }
+    }
 }
 
-void CalPoly()
+void DrawCalPoly(int loopCount)
 {
-	for(int row=0; row < ROWS; row++)// loops over the array of bytes
-  	{
-    	PORTD = cpPattern[row];
-    	delayMicroseconds(800);// the time every row is one
-    	PORTD = B00000000; // all pins are low, fixes the ghosting effect
-    	SetClock();
-  	}
+    for(int count = 0; count < loopCount; count++)
+    {
+        for(int row=0; row < ROWS; row++)// loops over the array of bytes
+        {
+            PORTD = cpPattern[row];
+            delayMicroseconds(800);// the time every row is one
+            PORTD = B00000000; // all pins are low, fixes the ghosting effect
+            SetClock();
+        }
+    }
 }
 
 void TurnOff()
 {
-  	for(int row=0; row < ROWS; row++)// loops over the array of bytes
-  	{
-    	PORTD = B00000000; // all pins are low, fixes the ghosting effect
-    	SetClock(); 
-  	}
+    for(int row=0; row < ROWS; row++)// loops over the array of bytes
+    {
+        PORTD = B00000000; // all pins are low, fixes the ghosting effect
+        SetClock(); 
+    }
 }
 
 void SetClock()
 {
-  	// tells the 4017 IC to go to the next row
+    // tells the 4017 IC to go to the next row
     digitalWrite(ICclock, HIGH);
     delayMicroseconds(5);
     digitalWrite(ICclock, LOW);
