@@ -103,7 +103,7 @@ void setup()
 void loop() 
 {
  
-    DrawCalPoly(100); // 100 is a pseudo-time (its the number of times to loop over the CP pattern).
+    DrawCalPoly(8); // 100 is a pseudo-time (its the number of times to loop over the CP pattern).
 
     DrawScrollingText(4, patternDan, 8);
 
