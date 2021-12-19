@@ -1,0 +1,3 @@
+Requires FastLED library
+
+This sketch is used to lightup my wife's holiday house collection.

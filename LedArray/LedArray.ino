@@ -37,9 +37,9 @@ void LightAllInSequence()
   for (int ii = 0; ii < NUM_LIGHTS; ii++)
   {
     //FastLED.clear();
-    leds[ii] = CRGB(255,255,0);
+    leds[ii] = CRGB(255,255,255);
     FastLED.show();
-    delay(500);
+    delay(100);
   }
 }
 
@@ -113,4 +113,3 @@ void RampUpAllRedLights(int startPower, int finishPower)
     delay(50); 
   }
 }
-
