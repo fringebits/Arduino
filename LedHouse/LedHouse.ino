@@ -20,17 +20,42 @@
 
 CRGB leds[NUM_LIGHTS] = { };
 
+class Range
+{
+public:
+    Range(int _start=0, int _count=0)
+        : start(_start)
+        , count(_count)
+    { }
+
+    int start;
+    int count;
+};
+
+#define NUM_HOUSES 5
+#define FIRST_HOUSE 0
+#define LAST_HOUSE 5
+
+Range houses[NUM_HOUSES] = { 
+  Range(10, 2),
+  Range(19, 3),
+  Range(34, 2),  
+  Range(39, 2),  
+  Range(47, 3)  
+};
+
 void setup()
 {
   FastLED.addLeds<WS2811, DATA_PIN>(leds, NUM_LIGHTS); //setting up the FastLED
   FastLED.clear();
 
-  leds[22] = HOUSE_COLOR;
-  leds[29] = HOUSE_COLOR;
-  //leds[30] = HOUSE_COLOR;
-
-  //leds[45] = HOUSE_COLOR;
-
+  for(int ii=FIRST_HOUSE; ii < LAST_HOUSE; ii++)
+  {
+    for(int jj=0; jj < houses[ii].count; jj++)
+    {
+      leds[jj + houses[ii].start] = HOUSE_COLOR;
+    }
+  }
 }
 
 void loop()
