@@ -1,6 +1,6 @@
 #include <FastLED.h>
 
-#define DATA_PIN      6  	// this is the data pin connected to the LED strip.  If using WS2801 you also need a clock pin
+#define DATA_PIN      7  	// this is the data pin connected to the LED strip.  If using WS2801 you also need a clock pin
 #define NUM_LIGHTS   50 	// change this for the number of LEDs in the strip
 #define COLOR_ORDER RGB
 
