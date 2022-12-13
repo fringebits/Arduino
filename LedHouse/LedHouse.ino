@@ -16,6 +16,8 @@
 #define COLOR_GREEN_DARK    CRGB(  0, 128,   0) //dark green 
 #define COLOR_RED           CRGB(255,   0,   0) //red
 
+#define HOUSE_COLOR CRGB(255, 145, 25)
+
 CRGB leds[NUM_LIGHTS] = { };
 
 void setup()
@@ -23,10 +25,12 @@ void setup()
   FastLED.addLeds<WS2811, DATA_PIN>(leds, NUM_LIGHTS); //setting up the FastLED
   FastLED.clear();
 
-  leds[ 0] = COLOR_WHITE;
-  leds[ 1] = COLOR_WHITE;
-  leds[ 2] = COLOR_WHITE;
-  leds[ 3] = COLOR_ORCHID;
+  leds[22] = HOUSE_COLOR;
+  leds[29] = HOUSE_COLOR;
+  //leds[30] = HOUSE_COLOR;
+
+  //leds[45] = HOUSE_COLOR;
+
 }
 
 void loop()
