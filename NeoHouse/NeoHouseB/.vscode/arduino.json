@@ -1,5 +1,4 @@
 {
-    "output": "output",
     "board": "arduino:megaavr:uno2018",
     "port": "COM4",
     "programmer": "arduino:avrisp",
