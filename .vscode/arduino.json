@@ -1,7 +1,8 @@
 {
+    "output": "output",
     "configuration": "cpu=atmega168",
     "board": "arduino:avr:diecimila",
     "port": "COM3",
     "programmer": "arduino:avrisp",
-    "sketch": "LedHouse\\LedHouse.ino"
+    "sketch": "NeoHouseB\\NeoHouseB.ino"
 }
