@@ -61,6 +61,4 @@ void loop()
 {
     update_houses(&A_leds, A_houses, NUM_HOUSES_A);
     update_houses(&B_leds, B_houses, NUM_HOUSES_B);
-    
-    delay(2000);
 }

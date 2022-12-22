@@ -13,6 +13,8 @@
 #define COLOR_PINK_HOT      CRGB(255, 105, 180) //hot pink
 #define COLOR_GREEN_DARK    CRGB(  0, 128,   0) //dark green 
 #define COLOR_RED           CRGB(255,   0,   0) //red
+#define COLOR_GREEN         CRGB(  0, 255,   0) //green
+#define COLOR_BLUE          CRGB(  0,   0, 255) //green
 
 class NuColor
 {
